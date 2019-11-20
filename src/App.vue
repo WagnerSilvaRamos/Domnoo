@@ -1,7 +1,9 @@
 <template>
     <div>
     <comp-header/>
-  <div>content</div>
+  <div>
+content
+  </div>
     <comp-footer/>
   </div>
 </template>
