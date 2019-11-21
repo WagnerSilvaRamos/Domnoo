@@ -2,8 +2,14 @@
     <div>
     <comp-header/>
   <div>
-content
+<comp-featured/>
+      <comp-menu/>
   </div>
+
+
+
+
+
     <comp-footer/>
   </div>
 </template>
@@ -12,11 +18,16 @@ content
 
   import compHeader from './components/Header-footer/Header.vue';
   import compFooter from './components/Header-footer/Footer.vue';
+  import compFeatured from './components/Featured/index.vue';
+  import compMenu from './components/Menu/index.vue';
 
 export  default {
 components:{
   compHeader,
-  compFooter
+  compFooter,
+  compFeatured,
+  compMenu
+
 }
 }
 </script>
